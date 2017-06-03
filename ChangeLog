@@ -1,60 +1,29 @@
-2016-03-02  Tommy Reynolds <Tommy.Reynolds@MegaCoder.com>
+2017-06-03  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
 
-	* asl.py: Truncate output file during open.
+	* asl/version.py: Right version
 
-2016-03-02  Tommy Reynolds <Tommy.Reynolds@MegaCoder.com>
+2017-06-03  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
 
-	* asl.py: Devolved from argparse to optparse, because its
-	ubiquitous.
+	* setup.py: Bumped embedded version
 
-2016-02-28  Tommy Reynolds <Tommy.Reynolds@MegaCoder.com>
+2017-06-03  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
 
-	* ChangeLog: ChangeLog
+	* asl/version.py: Place computed version number into here.
 
-2016-02-28  Tommy Reynolds <Tommy.Reynolds@MegaCoder.com>
+2017-06-03  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
 
-	* asl.py: Simplify date before trying to construct a timestamp.
+	* setup.py: Typo
 
-2016-02-28  Tommy Reynolds <Tommy.Reynolds@MegaCoder.com>
+2017-06-03  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
 
-	* asl.py: Turned off debug
+	* asl/__init__.py, setup.py: Generate version number automatically
 
-2016-02-28  Tommy Reynolds <Tommy.Reynolds@MegaCoder.com>
+2017-06-03  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
 
-	* asl.py: Use timestamp to sort all input, so we can coallesce logs
-	from multiple places.
+	* asl/__init__.py: Allow shorter output lines by removing the middle
+	of really long strings.
 
-2016-02-28  Tommy Reynolds <Tommy.Reynolds@MegaCoder.com>
+2017-06-03  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
 
-	* asl.py: Basic argument processing.
-
-2016-02-28  Tommy Reynolds <Tommy.Reynolds@MegaCoder.com>
-
-	* Makefile, asl.py: Better error handling for unreadable files,
-	directories or absent files.
-
-2016-02-28  Tommy Reynolds <Tommy.Reynolds@MegaCoder.com>
-
-	* Makefile: Forcibly pass ascript through python(1) during testing.
-
-2016-02-28  Tommy Reynolds <Tommy.Reynolds@MegaCoder.com>
-
-	* Makefile: What to do...
-
-2016-02-28  Tommy Reynolds <Tommy.Reynolds@MegaCoder.com>
-
-	* asl.py: Defined a formal "gutter" to make column alignment less
-	magic
-
-2016-02-28  Tommy Reynolds <Tommy.Reynolds@MegaCoder.com>
-
-	* asl.py: Handle dangling <>'s
-
-2016-02-27  Tommy Reynolds <Tommy.Reynolds@MegaCoder.com>
-
-	* asl.py: Almost right; lops off some nested <>'s
-
-2016-02-27  Tommy Reynolds <Tommy.Reynolds@MegaCoder.com>
-
-	* Got sample log
+	* Baseline
 
