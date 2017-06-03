@@ -10,6 +10,16 @@ import	re
 class	AdminServerLog( object ):
 
 	STD_FIELDS = 12
+	UNLIMITED  = 999
+	CLAMPS     = [
+		UNLIMITED,
+		11,
+		33,
+		31,
+		25,
+		31,
+		25,
+	] + [ UNLIMITED ] * (STD_FIELDS - 7 )
 
 	def	__init__( self, debug = 0 ):
 		self.debug   = debug
@@ -67,6 +77,21 @@ class	AdminServerLog( object ):
 			raise ValueError
 		return ts
 
+	def	clip( self, s, width = 30, ellipsis = '...' ):
+		Ls = len( s )
+		if Ls <= width: return s
+		Le = len( ellipsis )
+		keep = max(
+			int( (width - Le) / 2 ),
+			1
+		)
+		retval = '{0}{1}{2}'.format(
+			s[:keep],
+			ellipsis,
+			s[-keep:],
+		)
+		return retval
+
 	def	do_file( self, f = sys.stdin ):
 		if self.debug:
 			print 'do_file()'
@@ -101,6 +126,11 @@ class	AdminServerLog( object ):
 						tokens[0]
 					)
 					ts = datetime.datetime.now()
+				for i,t in enumerate( tokens[:AdminServerLog.STD_FIELDS] ):
+					tokens[i] = self.clip(
+						tokens[i],
+						AdminServerLog.CLAMPS[ i ]
+					)
 				for i,f in enumerate( tokens[:AdminServerLog.STD_FIELDS] ):
 					self.widths[ i ] = max(
 						self.widths.get( i, 0 ),
@@ -169,7 +199,7 @@ class	AdminServerLog( object ):
 			[ self.widths[i] for i in self.widths ]
 		)
 		N = len( fmts[:AdminServerLog.STD_FIELDS] )
-		gutter = '   '
+		gutter = '  '
 		indent = gutter.join([
 			fmts[i].format('') for i in range( N - 1 )
 		]) + gutter
