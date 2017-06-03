@@ -1,7 +1,10 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '1.1.3'
+version = '1.1.4'
+
+with open( 'ASL/version.py', 'wt' ) as f:
+    print >>f, "Version = '{0}'".format( version )
 
 setup(name='asl',
       version=version,

@@ -6,6 +6,7 @@ import	os
 import	datetime
 import	traceback
 import	re
+import	version
 
 class	AdminServerLog( object ):
 
@@ -220,9 +221,8 @@ class	AdminServerLog( object ):
 
 if __name__ == '__main__':
 	import	optparse
-	version = '1.1.2'
 	p = optparse.OptionParser(
-		version = version,
+		version = version.Version,
 		description = 'Try to display AdminServer.log files in a human way.'
 	)
 	p.add_option(
