@@ -1,0 +1,7 @@
+ 1000  easy_install -U ZopeSkel
+ 1003  paster create --list-templates
+ 1004  paster create -t basic_package
+ 1006  cd asl
+ 1009  python setup.py --help-commands
+
+ # easy_install asl-1.0.0dev_r0-py2.7.egg

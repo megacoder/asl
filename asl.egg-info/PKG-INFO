@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: asl
+Version: 1.0.0dev-r0
+Summary: Prettyprinter for Oracle VM AdminServer.log files
+Home-page: http://www.megacoder.com
+Author: Tommy Reynolds
+Author-email: Oldest.Software.Guy@gmail.com
+License: MIT
+Description: good
+Keywords: oracle vm adminserver.log prettyprinter
+Platform: UNKNOWN

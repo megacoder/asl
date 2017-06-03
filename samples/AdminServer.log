@@ -1,0 +1,34 @@
+####<Feb 16, 2016 1:51:34 PM GMT> <Info> <WebLogicServer> <prd-ovmm01> <> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <> <> <> <1455630694447> <BEA-000000> <WebLogic Server "AdminServer" version:
+WebLogic Server 10.3.5.0  Fri Apr 1 20:20:06 PDT 2011 1398638  Copyright (c) 1995, 2009, Oracle and/or its affiliates. All rights reserved.> 
+####<Feb 16, 2016 1:51:34 PM GMT> <Notice> <Log Management> <prd-ovmm01> <> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <> <> <> <1455630694804> <WL-170019> <The server log file /u01/app/oracle/ovm-manager-3/machine1/base_adf_domain/servers/AdminServer/logs/AdminServer.log is opened. All server side log events will be written to this file.> 
+####<Feb 16, 2016 1:51:34 PM GMT> <Info> <Log Management> <prd-ovmm01> <> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <> <> <> <1455630694826> <WL-170024> <The Server Logging is initialized with Apache's Log4j Logging API implementation.> 
+####<Feb 16, 2016 1:51:34 PM GMT> <Info> <Diagnostics> <prd-ovmm01> <AdminServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1455630694908> <WL-320001> <The ServerDebug service initialized successfully.> 
+####<Feb 16, 2016 1:51:35 PM GMT> <Info> <Server> <prd-ovmm01> <AdminServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1455630695034> <WL-002622> <The protocol "t3" is now configured.> 
+####<Feb 16, 2016 1:51:35 PM GMT> <Info> <Server> <prd-ovmm01> <AdminServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1455630695034> <WL-002622> <The protocol "t3s" is now configured.> 
+####<Feb 16, 2016 1:51:35 PM GMT> <Info> <Server> <prd-ovmm01> <AdminServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1455630695037> <WL-002622> <The protocol "http" is now configured.> 
+####<Feb 16, 2016 1:51:35 PM GMT> <Info> <Server> <prd-ovmm01> <AdminServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1455630695037> <WL-002622> <The protocol "https" is now configured.> 
+####<Feb 16, 2016 1:51:35 PM GMT> <Info> <Server> <prd-ovmm01> <AdminServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1455630695038> <WL-002622> <The protocol "iiop" is now configured.> 
+####<Feb 16, 2016 1:51:35 PM GMT> <Info> <Server> <prd-ovmm01> <AdminServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1455630695039> <WL-002622> <The protocol "iiops" is now configured.> 
+####<Feb 16, 2016 1:51:35 PM GMT> <Info> <Server> <prd-ovmm01> <AdminServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1455630695080> <WL-002622> <The protocol "ldap" is now configured.> 
+####<Feb 16, 2016 1:51:35 PM GMT> <Info> <Server> <prd-ovmm01> <AdminServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1455630695081> <WL-002622> <The protocol "ldaps" is now configured.> 
+####<Feb 16, 2016 1:51:35 PM GMT> <Info> <Server> <prd-ovmm01> <AdminServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1455630695096> <WL-002622> <The protocol "cluster" is now configured.> 
+####<Feb 16, 2016 1:51:35 PM GMT> <Info> <Server> <prd-ovmm01> <AdminServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1455630695097> <WL-002622> <The protocol "clusters" is now configured.> 
+####<Feb 16, 2016 1:51:35 PM GMT> <Info> <Server> <prd-ovmm01> <AdminServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1455630695122> <WL-002622> <The protocol "snmp" is now configured.> 
+####<Feb 16, 2016 1:51:35 PM GMT> <Info> <Server> <prd-ovmm01> <AdminServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1455630695123> <WL-002622> <The protocol "admin" is now configured.> 
+####<Feb 16, 2016 1:51:35 PM GMT> <Info> <Server> <prd-ovmm01> <AdminServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1455630695123> <WL-002624> <The administration protocol is "t3s" and is now configured.> 
+####<Feb 16, 2016 1:51:35 PM GMT> <Info> <RJVM> <prd-ovmm01> <AdminServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1455630695150> <WL-000570> <Network Configuration for Channel "AdminServer"
+ Listen Address		 :7002 (SSL)
+ Public Address		 N/A
+ Http Enabled		 true
+ Tunneling Enabled	 false
+ Outbound Enabled	 false
+ Admin Traffic Enabled	 true> 
+####<Feb 16, 2016 1:51:35 PM GMT> <Info> <RJVM> <prd-ovmm01> <AdminServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1455630695154> <WL-000570> <Network Configuration for Channel "t3"
+ Listen Address		 t3://:7001
+ Public Address		 t3://:-1
+ Http Enabled		 false
+ Tunneling Enabled	 false
+ Outbound Enabled	 false
+ Admin Traffic Enabled	 true> 
+####<Feb 16, 2016 1:51:35 PM GMT> <Info> <Server> <prd-ovmm01> <AdminServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1455630695206> <WL-002609> <Channel Service initialized.> 
+####<Feb 16, 2016 1:51:35 PM GMT> <Info> <Socket> <prd-ovmm01> <AdminServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1455630695255> <WL-000415> <System has file descriptor limits of - soft: 65,536, hard: 65,536> 

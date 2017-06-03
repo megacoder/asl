@@ -1,0 +1,60 @@
+2016-03-02  Tommy Reynolds <Tommy.Reynolds@MegaCoder.com>
+
+	* asl.py: Truncate output file during open.
+
+2016-03-02  Tommy Reynolds <Tommy.Reynolds@MegaCoder.com>
+
+	* asl.py: Devolved from argparse to optparse, because its
+	ubiquitous.
+
+2016-02-28  Tommy Reynolds <Tommy.Reynolds@MegaCoder.com>
+
+	* ChangeLog: ChangeLog
+
+2016-02-28  Tommy Reynolds <Tommy.Reynolds@MegaCoder.com>
+
+	* asl.py: Simplify date before trying to construct a timestamp.
+
+2016-02-28  Tommy Reynolds <Tommy.Reynolds@MegaCoder.com>
+
+	* asl.py: Turned off debug
+
+2016-02-28  Tommy Reynolds <Tommy.Reynolds@MegaCoder.com>
+
+	* asl.py: Use timestamp to sort all input, so we can coallesce logs
+	from multiple places.
+
+2016-02-28  Tommy Reynolds <Tommy.Reynolds@MegaCoder.com>
+
+	* asl.py: Basic argument processing.
+
+2016-02-28  Tommy Reynolds <Tommy.Reynolds@MegaCoder.com>
+
+	* Makefile, asl.py: Better error handling for unreadable files,
+	directories or absent files.
+
+2016-02-28  Tommy Reynolds <Tommy.Reynolds@MegaCoder.com>
+
+	* Makefile: Forcibly pass ascript through python(1) during testing.
+
+2016-02-28  Tommy Reynolds <Tommy.Reynolds@MegaCoder.com>
+
+	* Makefile: What to do...
+
+2016-02-28  Tommy Reynolds <Tommy.Reynolds@MegaCoder.com>
+
+	* asl.py: Defined a formal "gutter" to make column alignment less
+	magic
+
+2016-02-28  Tommy Reynolds <Tommy.Reynolds@MegaCoder.com>
+
+	* asl.py: Handle dangling <>'s
+
+2016-02-27  Tommy Reynolds <Tommy.Reynolds@MegaCoder.com>
+
+	* asl.py: Almost right; lops off some nested <>'s
+
+2016-02-27  Tommy Reynolds <Tommy.Reynolds@MegaCoder.com>
+
+	* Got sample log
+
