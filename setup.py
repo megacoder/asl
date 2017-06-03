@@ -3,7 +3,7 @@ import sys, os
 
 version = '1.1.4'
 
-with open( 'ASL/version.py', 'wt' ) as f:
+with open( 'asl/version.py', 'wt' ) as f:
     print >>f, "Version = '{0}'".format( version )
 
 setup(name='asl',
