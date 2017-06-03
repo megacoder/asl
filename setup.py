@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '1.1.4'
+version = '2.0.1'
 
 with open( 'asl/version.py', 'wt' ) as f:
     print >>f, "Version = '{0}'".format( version )
