@@ -6,7 +6,7 @@ try:
 except:
     from distutils.core import setup
 
-version = '2.0.1'
+version = '2.0.2'
 
 with open( 'asl/version.py', 'wt' ) as f:
     print >>f, "Version = '{0}'".format( version )
