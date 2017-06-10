@@ -1,3 +1,39 @@
+2017-06-10  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
+	* setup.py: Bumped revision
+
+2017-06-10  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
+	* asl/__init__.py, setup.py: Package using 'setuptools' to generate
+	a shim package.  Not not available, screwed.
+
+2017-06-10  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
+	* .gitignore: Deplorables
+
+2017-06-10  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
+	* {samples => asl/samples}/AdminServer-20160708-1500.log, {samples
+	=> asl/samples}/AdminServer.log: Deeper
+
+2017-06-10  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
+	* setup.cfg: Goner
+
+2017-06-10  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
+	* asl.egg-info/PKG-INFO, asl.egg-info/SOURCES.txt,
+	asl.egg-info/dependency_links.txt, asl.egg-info/entry_points.txt,
+	asl.egg-info/not-zip-safe, asl.egg-info/top_level.txt: Goner
+
+2017-06-10  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
+	* README.md: Gotta say something.
+
+2017-06-03  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
+
+	* ChangeLog: History
+
 2017-06-03  Tommy Reynolds <Oldest.Software.Guy@gmail.com>
 
 	* asl/version.py: Right version
