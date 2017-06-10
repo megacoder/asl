@@ -1,29 +1,34 @@
-from setuptools import setup, find_packages
-import sys, os
+#!/usr/bin/python
+# vim: noet sw=4 ts=4 filetype=python
+
+try:
+    from setuptools     import setup
+except:
+    from distutils.core import setup
 
 version = '2.0.1'
 
 with open( 'asl/version.py', 'wt' ) as f:
     print >>f, "Version = '{0}'".format( version )
 
-setup(name='asl',
-      version=version,
-      description="Prettyprinter for Oracle VM AdminServer.log files",
-      long_description="""\
-good""",
-      classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
-      keywords='oracle vm adminserver.log prettyprinter',
-      author='Tommy Reynolds',
-      author_email='Oldest.Software.Guy@gmail.com',
-      url='http://www.megacoder.com',
-      license='MIT',
-      packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
-      include_package_data=True,
-      zip_safe=False,
-      install_requires=[
-          # -*- Extra requirements: -*-
-      ],
-      entry_points="""
-      # -*- Entry points: -*-
-      """,
-      )
+setup(
+    name                 = 'asl',
+    version              = version,
+    description          = "Prettyprinter for OVM AdminServer.log files",
+    long_description     = open('README.md').read(),
+    keywords             = 'oracle vm adminserver.log prettyprinter',
+    author               = 'Tommy Reynolds',
+    author_email         = 'Oldest.Software.Guy@gmail.com',
+    url                  = 'http://www.megacoder.com',
+    license              = 'MIT',
+    include_package_data = True,
+    zip_safe             = False,
+    install_requires     = [],
+    packages             = [ 'asl' ],
+    entry_points         = {
+        'console_scripts' : [
+            'asl=asl:main'
+        ],
+    },
+#   scripts              = [ 'bin/asl' ]
+)

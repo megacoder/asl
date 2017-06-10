@@ -219,7 +219,7 @@ class	AdminServerLog( object ):
 				)
 		return
 
-if __name__ == '__main__':
+def	main():
 	import	optparse
 	p = optparse.OptionParser(
 		version = version.Version,
@@ -253,3 +253,6 @@ if __name__ == '__main__':
 			asl.process( arg )
 	asl.report( f )
 	exit( 0 )
+
+if __name__ == '__main__':
+	main()
