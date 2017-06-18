@@ -3,8 +3,10 @@
 
 try:
     from setuptools     import setup
+    print 'Found setuptools, eggs may be hatched.'
 except:
     from distutils.core import setup
+    print 'Revered to distutils, only usual suspects possible.'
 
 version = '2.0.2'
 
@@ -30,5 +32,5 @@ setup(
             'asl=asl:main'
         ],
     },
-#   scripts              = [ 'bin/asl' ]
+    scripts              = [ 'bin/asl' ]
 )
