@@ -1,12 +1,7 @@
 #!/usr/bin/python
 # vim: noet sw=4 ts=4 filetype=python
 
-try:
-    from setuptools     import setup
-    print 'Found setuptools, eggs may be hatched.'
-except:
-    from distutils.core import setup
-    print 'Revered to distutils, only usual suspects possible.'
+from distutils.core import setup
 
 version = '2.0.2'
 
