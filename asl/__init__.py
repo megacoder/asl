@@ -6,7 +6,10 @@ import	os
 import	datetime
 import	traceback
 import	re
-import	version
+try:
+	from	version		import	Version
+except:
+	Version = '0.0.0rc0'
 
 class	AdminServerLog( object ):
 
@@ -222,7 +225,7 @@ class	AdminServerLog( object ):
 def	main():
 	import	optparse
 	p = optparse.OptionParser(
-		version = version.Version,
+		version = Version,
 		description = 'Try to display AdminServer.log files in a human way.'
 	)
 	p.add_option(
